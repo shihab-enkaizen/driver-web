@@ -13,7 +13,7 @@
         "email": "m.pociot@gmail.com"
     }],
     "require": {
-        "php": ">=7.0",
+        "php": "^8.0",
         "botman/botman": ">=2.0"
     },
     "require-dev": {
@@ -49,5 +49,11 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true,
+            "thecodingmachine/discovery": true
+        }
+    }
 }
